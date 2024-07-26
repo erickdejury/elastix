@@ -1,7 +1,7 @@
-use Mix.Config
+import Config
 
 config :mix_test_watch,
-  tasks: [
-    "test",
-    "credo list --strict -a"
-  ]
+       tasks: [
+         "test",
+         "credo list --strict -a"
+       ]
